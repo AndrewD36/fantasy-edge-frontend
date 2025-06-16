@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { usePlayers } from '@/hooks/usePlayers';
 import PlayerList from '@/components/player/PlayerList';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { Position } from '@/types/player';
 
 const positions: Position[] = ['QB', 'RB', 'WR', 'TE', 'K', 'DEF'];
